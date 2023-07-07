@@ -1,4 +1,4 @@
-# 찐플
+<img src="https://capsule-render.vercel.app/api?type=slice&color=auto&height=300&section=header&text=HJ%20ZZinple&fontSize=90" />
 
 
 ## 💻프로젝트 소개
