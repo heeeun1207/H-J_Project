@@ -20,9 +20,9 @@
 
 ## 🧰Stacks 
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
-<img src="https://img.shields.io/badge/JavaScript-3776AB?style=for-the-badge&logo=JavaScript&logoColor=white">
-<img src="https://img.shields.io/badge/node.js-3776AB?style=for-the-badge&logo=node.js&logoColor=white">
-<img src="https://img.shields.io/badge/express-3776AB?style=for-the-badge&logo=expresslogoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
+<img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=node.js&logoColor=white">
+<img src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=expresslogoColor=white">
 
 
 
@@ -31,7 +31,7 @@
 
 
 ## ⭐주요 기능
-1. 경험으로 증명하는 추천작 (감상평)
+1. 경험으로 증명하는 추천 작품 순위
 2. 독립적인 에피소드를 다루는 엔솔로지 작품 안에 시즌과 회차(에피소드)에 대한 상세 분류,별점
 
 
