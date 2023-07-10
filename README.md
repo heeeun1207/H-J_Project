@@ -14,8 +14,9 @@
 
 
 ### 💁참여자 
-@jiny43 정지은
-@heeeun1207 정희은
+
+[jiny43/정지은](https://github.com/jiny43)
+ 정희은
 
 
 ## 🧰Stacks 
