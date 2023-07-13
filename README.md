@@ -13,6 +13,7 @@
 ### 💁참여자
 
 [jiny43/정지은](https://github.com/jiny43)
+<br>
 [heeeun1207/정희은](https://github.com/heeeun1207)
 
 ## 🧰Stacks
