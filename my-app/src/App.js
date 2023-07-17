@@ -1,37 +1,32 @@
-import React, { useEffect, useState } from 'react';
-import './App.css';
-import bakingImage from './images/baking.png';
-import goodgirlsImage from './images/goodgirls.png';
-import starImage from './images/star.png';
+import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
-  const slides = [
-    { src: bakingImage, alt: '베이킹임파서블', caption: '베이킹 임파서블' },
-    { src: goodgirlsImage, alt: '굿걸즈', caption: '굿걸즈' },
-    { src: starImage, alt: '별나도괜찮아', caption: '별나도 괜찮아' },
-  ];
-
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, [slides.length]);
-
+const App = () => {
   return (
-    <div id="root">
-      <main id="slide">
-        {slides.map((slide, index) => (
-          <section key={index} style={{ display: index === currentSlide ? 'block' : 'none' }}>
-            <img src={slide.src} alt={slide.alt} />
-            <p>{slide.caption}</p>
-          </section>
-        ))}
-      </main>
+    <div>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar.Brand href="#home">Your Website</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href="#login">Login</Nav.Link>
+            <Nav.Link href="#signup">Signup</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+
+      <div style={{ padding: '20px' }}>
+        <h1>Welcome to Your Website</h1>
+        <p>Here is your content...</p>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
