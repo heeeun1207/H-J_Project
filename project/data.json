@@ -1,13 +1,42 @@
 {
   "Series":[
-    { "id":1, "name": "You"},
-    { "id":2, "name": "Brooklyn Nine-Nine"},
-    { "id":3, "name": "Santa Clarita Diet"},
-    { "id":4, "name": "Black Mirror"},
-    { "id":5, "name": "Good Girls"},
-    { "id":6, "name": "orange is the new black"},
+    { "id":1, "name": "You(너의 모든 것)"},
+    { "id":2, "name": "Brooklyn Nine-Nine(브루클린 나인-나인)"},
+    { "id":3, "name": "Santa Clarita Diet(산타클라리타 다이어트)"},
+    { "id":4, "name": "Black Mirror(블랙미러)"},
+    { "id":5, "name": "Good Girls(굿 걸스)"},
+    { "id":6, "name": "orange is the new black(오렌지 이즈 더 뉴 블랙)"},
     { "id":7, "name": "비밀의 숲"},
-    { "id":8, "name": "Dead to me"},
-    { "id":9, "name": "손 the geuest"}
+    { "id":8, "name": "Dead to me(데드 투 미)"},
+    { "id":9, "name": "손 the geuest"},
+    { "id":10, "name": "괴물"},
+    { "id":11, "name": "The End of the F***ing World(빌어먹을 세상따위)"},
+    { "id":12, "name": "기묘한 이야기"},
+    { "id":13, "name": "오티스의 비밀 상담소"},
+    { "id":14, "name": "지니 앤 조지아"},
+    { "id":15, "name": "킹덤"},
+    { "id":16, "name": "The Good Place"},
+    { "id":17, "name": "헤어질 결심"},
+    { "id":18, "name": "더 글로리"},
+    { "id":19, "name": "스물다섯 스물하나"},
+    { "id":20, "name": "종이의 집"},
+    { "id":21, "name": "소년 심판"},
+    { "id":22, "name": "동백꽃 필 무렵"},
+    { "id":23, "name": "지옥"},
+    { "id":24, "name": "에밀리 파리에 가다"},
+    { "id":25, "name": "아케인"},
+    { "id":26, "name": "스위트 홈"},
+    { "id":27, "name": "사카모토입니다만"},
+    { "id":28, "name": "록우드 심령회사"},
+    { "id":29, "name": "그 해 우리는"},
+    { "id":30, "name": "남부의 여왕"},
+    { "id":31, "name": "너를 닮은 사람"}
+
+
+
+
+
+
+
   ]
 }
