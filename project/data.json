@@ -1,0 +1,13 @@
+{
+  "Series":[
+    { "id":1, "name": "You"},
+    { "id":2, "name": "Brooklyn Nine-Nine"},
+    { "id":3, "name": "Santa Clarita Diet"},
+    { "id":4, "name": "Black Mirror"},
+    { "id":5, "name": "Good Girls"},
+    { "id":6, "name": "orange is the new black"},
+    { "id":7, "name": "비밀의 숲"},
+    { "id":8, "name": "Dead to me"},
+    { "id":9, "name": "손 the geuest"}
+  ]
+}
