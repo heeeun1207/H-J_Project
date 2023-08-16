@@ -3,7 +3,9 @@ import '../styles/login.css';
 
 function Login() {
   return (
-    <div className="login-container"></div>
+    <div className="login-container">
+      <div className="logo-box"></div>
+    </div>
   );
 }
 
