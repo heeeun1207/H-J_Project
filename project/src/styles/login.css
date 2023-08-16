@@ -9,5 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1;
+	box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
 
