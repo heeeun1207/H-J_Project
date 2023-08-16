@@ -6,7 +6,7 @@ import Series from '../src/pages/Series.tsx';
 import Movies from '../src/pages/Movies.tsx';
 import TrendingContent from '../src/pages/TrendingContent.tsx';
 import SavedContent from '../src/pages/SavedContent.tsx';
-import CategorizedContent from './pages/CategorizedContent.js';
+import CategorizedContent from './pages/CategorizedContent.tsx';
 
 
 function App() {

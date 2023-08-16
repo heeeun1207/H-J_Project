@@ -1,9 +1,11 @@
 import React from 'react';
+import Navbar from '../components/Navbar.tsx';
 
 function main() {
   return (
     <div>
-      4
+      <Navbar />
+      
     </div>
   )
 

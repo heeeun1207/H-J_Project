@@ -1,11 +1,13 @@
 import React from 'react';
+import Navbar from '../components/Navbar.tsx';
 
-function main() {
+function App() {
   return (
     <div>
-      5
+      <Navbar />
+      
     </div>
   )
 
   }
-export default main;
+export default App;
