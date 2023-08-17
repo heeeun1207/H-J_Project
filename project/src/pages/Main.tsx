@@ -1,4 +1,3 @@
-
 import React, { useRef } from 'react';
 import '../styles/main.css';
 import Navbar from '../components/Navbar.tsx';
@@ -9,15 +8,19 @@ import useAutoPlayVideo from '../hooks/useAutoPlayVideo';
 function Main() {
   const videoRef = useRef(null);
 
-  useAutoPlayVideo(videoRef);
+  // 자동 재생 시간초 설정: 5초 후에 자동 재생
+  const autoPlayDelay = 5;
+
+  useAutoPlayVideo(videoRef, autoPlayDelay);
+
   return (
     <div>
       <Navbar />
-      <div class="netflix-video-container">
-        <video src={videoSource} controls autoPlay muted poster={videoImage}/>
+      <div className="netflix-video-container">
+        <video ref={videoRef} src={videoSource} controls autoPlay muted poster={videoImage} />
       </div>
-
     </div>
-  )
-  }
+  );
+}
+
 export default Main;
