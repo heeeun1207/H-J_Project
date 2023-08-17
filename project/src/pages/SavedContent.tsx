@@ -5,6 +5,7 @@ function main() {
   return (
     <div>
       <Navbar />
+      
     </div>
   )
 
