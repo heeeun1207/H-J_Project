@@ -19,9 +19,10 @@ app.get('/', (req,res) => {
 
 
 
+
 const apiKey = '4f7a2baa745822c7e805100300f62cc6';
 //todo 공식문서 찾아보기
-const apiUrl = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=1`;
+const apiUrl = `https://api.themoviedb.org/3/movie/157336?api_key=${apiKey}&append_to_response=videos,images`
 
 fetch(apiUrl) 
   .then(response => response.json())
