@@ -3,7 +3,8 @@ import '../styles/main.css';
 import Navbar from '../components/Navbar.tsx';
 import videoSource from '../assets/You.mp4';
 import videoImage from '../assets/You.jpeg';
-import useAutoPlayVideo from '../hooks/useAutoPlayVideo';
+import useAutoPlayVideo from '../hooks/useAutoPlayVideo.js';
+import CarouselSlider from '../components/CarouselSlider.tsx';
 
 function Main() {
   const videoRef = useRef(null);
@@ -19,6 +20,7 @@ function Main() {
       <div className="netflix-video-container">
         <video ref={videoRef} src={videoSource} controls autoPlay muted poster={videoImage} />
       </div>
+      <CarouselSlider></CarouselSlider>
     </div>
   );
 }

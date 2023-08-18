@@ -1,13 +1,17 @@
 import { useEffect } from 'react';
 
-function useAutoPlayVideo(videoRef) {
+function useAutoPlayVideo(videoRef, autoPlayDelay) {
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.addEventListener('canplay', () => {
+      const timeout = setTimeout(() => {
         videoRef.current.play();
-      });
+      }, autoPlayDelay * 5000); 
+
+      return () => {
+        clearTimeout(timeout);
+      };
     }
-  }, [videoRef]);
+  }, [videoRef, autoPlayDelay]);
 }
 
 export default useAutoPlayVideo;
