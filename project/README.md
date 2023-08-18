@@ -18,5 +18,7 @@
 
 
 3. 추천목록
-TMDB API
+-TMDB API
+가이드 : https://developer.themoviedb.org/docs/getting-started
+-carousel-slider
 
