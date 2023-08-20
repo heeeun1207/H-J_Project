@@ -1,0 +1,18 @@
+{
+  "adult": false,
+  "backdrop_path": "/drAAmFWqWrYWuNJ50wa43kMCHTs.jpg",
+  "genre_ids": [
+    18
+  ],
+  "id": 541339,
+  "original_language": "es",
+  "original_title": "Las niñas bien",
+  "overview": "Sofía a well-to-do socialite and her husband must wrestle with the impact of Mexico's 1982 economic crisis.",
+  "popularity": 4.275,
+  "poster_path": "/eCy2Kz2EKEP4axNzcBpgXKtEXCU.jpg",
+  "release_date": "2019-03-22",
+  "title": "The Good Girls",
+  "video": false,
+  "vote_average": 6.364,
+  "vote_count": 55
+}
