@@ -1,0 +1,75 @@
+[
+  {
+    "adult": false,
+    "backdrop_path": null,
+    "genre_ids": [
+      18,
+      10749
+    ],
+    "id": 73906,
+    "original_language": "en",
+    "original_title": "You",
+    "overview": "You is a love story. It spans 21 years, bouncing around in time, creating a kind of family quilt that wraps around a father as he struggles to overcome the grief of losing his beloved wife and raise their daughter alone. A coming-of-age journey for both the father and his daughter, You is filled with the magic of life and love and family.",
+    "popularity": 2.105,
+    "poster_path": null,
+    "release_date": "2009-07-01",
+    "title": "You",
+    "video": false,
+    "vote_average": 7.5,
+    "vote_count": 5
+  },
+  {
+    "adult": false,
+    "backdrop_path": null,
+    "genre_ids": [
+      99
+    ],
+    "id": 1007125,
+    "original_language": "en",
+    "original_title": "Goodbye Brooklyn Nine-Nine",
+    "overview": "We rejoice in the best moments, hear from the cast, creatives and celebrity fans, and explore what made it a TV staple.",
+    "popularity": 3.816,
+    "poster_path": "/vyyAE2xnqJ6DxQMRYYwIFuk5EFr.jpg",
+    "release_date": "2022-06-08",
+    "title": "Goodbye Brooklyn Nine-Nine",
+    "video": false,
+    "vote_average": 7.3,
+    "vote_count": 6
+  },
+  {
+    "adult": false,
+    "backdrop_path": null,
+    "genre_ids": [
+      18
+    ],
+    "id": 452830,
+    "original_language": "en",
+    "original_title": "Black Mirror",
+    "overview": "A nameless drifter navigates a barren landscape punctuated by satellite dishes, radio towers and droning airplanes. Stopping periodically in anonymous hotel rooms, she makes attempts to connect to an unidentified second party.",
+    "popularity": 6.554,
+    "poster_path": "/fYi4BQhoj2ay3oJwT2x8kMNHpds.jpg",
+    "release_date": "2011-06-20",
+    "title": "Black Mirror",
+    "video": false,
+    "vote_average": 7.558,
+    "vote_count": 52
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/drAAmFWqWrYWuNJ50wa43kMCHTs.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 541339,
+    "original_language": "es",
+    "original_title": "Las niñas bien",
+    "overview": "Sofía a well-to-do socialite and her husband must wrestle with the impact of Mexico's 1982 economic crisis.",
+    "popularity": 6.059,
+    "poster_path": "/eCy2Kz2EKEP4axNzcBpgXKtEXCU.jpg",
+    "release_date": "2019-03-22",
+    "title": "The Good Girls",
+    "video": false,
+    "vote_average": 6.364,
+    "vote_count": 55
+  }
+]

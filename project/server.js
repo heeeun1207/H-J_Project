@@ -20,20 +20,38 @@ app.get('/', (req,res) => {
 
 
 const apiKey = '4f7a2baa745822c7e805100300f62cc6';
-//todo 공식문서 찾아보기
-const apiUrl = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=1`;
+const searchTerms = ['You','Brooklyn Nine-Nine','Santa Clarita Diet','Black Mirror','Good Girls','손 the guest'];
 
-fetch(apiUrl) 
-  .then(response => response.json())
-  .then(data => {
-    console.log(data);
-    //todo 포스터 , 비디오 , 장르 , 감독 , 배우 , 설명 , 날짜 
-    
+// 각 검색어에 대한 fetch 요청을 보내고 처리
+const promises = searchTerms.map(searchTerm => {
+  const searchUrl = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${encodeURIComponent(searchTerm)}`;
+  
+  return fetch(searchUrl)
+    .then(response => response.json())
+    .then(data => {
+      if (data.results && data.results.length > 0) {
+        const movie = data.results[0];
+        return movie;
+      } else {
+        return null;
+      }
+    })
+    .catch(error => {
+      console.error('Error fetching data:', error);
+      return null;
+    });
+});
 
-    
-  })
-  .catch(error => {
-    console.error('Error fetching data:', error);
+Promise.all(promises)
+  .then(movies => {
+    const jsonData = JSON.stringify(movies.filter(movie => movie), null, 2);
+    fs.writeFile('movie_data.json', jsonData, 'utf8', (err) => {
+      if (err) {
+        console.error('Error writing JSON file:', err);
+      } else {
+        console.log('JSON file has been saved.');
+      }
+    });
   });
 
 
