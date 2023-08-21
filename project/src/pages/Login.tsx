@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/login.css';
 import logoImage from '../assets/HJ_logo.png';
-import { useLanguageToggle } from '../hooks/useLanguageToggle.js';
+import { useLanguageToggle } from '../hooks/useLanguageToggle.tsx';
 import {useNavigate} from 'react-router-dom';
 
 function Login() {

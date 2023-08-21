@@ -7,11 +7,14 @@ import Movies from '../src/pages/Movies.tsx';
 import TrendingContent from '../src/pages/TrendingContent.tsx';
 import SavedContent from '../src/pages/SavedContent.tsx';
 import CategorizedContent from './pages/CategorizedContent.tsx';
+import { MovieDataProvider } from '../src/hooks/MovieDataContext.tsx';
+
 
 
 function App() {
   return (
     <BrowserRouter>
+    <MovieDataProvider>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/main" element={<Main />} />
@@ -21,6 +24,7 @@ function App() {
         <Route path="/SavedContent" element={<SavedContent />} />
         <Route path="/CategorizedContent" element={<CategorizedContent />} />
         </Routes>
+    </MovieDataProvider>
     </BrowserRouter>
   );
 }
