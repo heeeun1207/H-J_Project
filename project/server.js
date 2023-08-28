@@ -18,7 +18,6 @@ app.get('/', (req,res) => {
 });
 
 
-
 const apiKey = '4f7a2baa745822c7e805100300f62cc6';
 const searchTerms = ['You','Brooklyn Nine-Nine','Santa Clarita Diet','Black Mirror','Good Girls','손 the guest'];
 
@@ -53,8 +52,6 @@ Promise.all(promises)
       }
     });
   });
-
-
 
 
 app.listen(port, ()=> {
