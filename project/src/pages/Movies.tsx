@@ -10,12 +10,15 @@ const Movies = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <h2>Movie List</h2>
-      <ul>
-        {movies.map(movie => (
-          <li key={movie.id}>{movie.title}</li>
-        ))}
-      </ul>
+      <div>
+      {movies.map(movie => (
+        <div key={movie.id}>
+          <h2>{movie.title}</h2>
+          <img src={movie.posterUrl} alt={`${movie.title} Poster`} />
+        </div>
+      ))}
+    </div>
+  );
       <CarouselSlider></CarouselSlider>
     </div>
   );
