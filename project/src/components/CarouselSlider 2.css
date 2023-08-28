@@ -1,7 +1,7 @@
 .carousel-slider {
   margin: 20px 0;
   position: relative; 
-  /* margin-top: -200px;  */
+  margin-top: -200px; 
   z-index: 1; 
 }
 
@@ -13,7 +13,7 @@
   height: 150px;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(201, 187, 187, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .carousel-slide img {
