@@ -5,7 +5,7 @@
     "poster_path": "https://i.ytimg.com/vi/twE27qGVCSM/maxresdefault.jpg",
     "release_date": "2018-09-09",
     "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
-    "genre": ["Drama"],
+    "genre": ["드라마","스릴러"],
     "director": [
       "Greg Berlanti",
       "Sera Gamble"
@@ -37,7 +37,7 @@
     "poster_path": "https://cdn.maily.so/202208/munhwa.cvs/1660492390450171.jpeg",
     "release_date": "2013-09-17",
     "overview": "경찰의 명예를 중시하는 원칙주의자 홀트 서장. 그 아래 재능은 물론 꼼수, 공갈, 운까지 총동원해서 어떻게든 사건을 해결해내는 듬직한(?) 형사들이 있는 곳. 브루클린 99 관할 경찰서에 오신 것을 환영합니다!",
-    "genre": ["Comedy","crime"],
+    "genre": ["코미디","범죄"],
     "director": [
       "GMichael Schur",
       "Daniel J. Goor"
@@ -68,12 +68,11 @@
     "id": 3,
     "title": "블랙 미러 (Black Mirror)",
     "poster_path": "https://rereco.co/wp-content/uploads/2022/05/%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4-%EB%B8%94%EB%9E%99%EB%AF%B8%EB%9F%AC.jpg",
-    "release_date": "2018-09-09",
-    "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
-    "genre": ["Drama"],
+    "release_date": "2011-12-04",
+    "overview": "2011년 12월 Channel 4에서 방영을 시작한 SF 옴니버스 드라마. 만약 기술이 마약이나 마찬가지이고 사용되기도 마약 같이 사용되고 있다면 그에 따른 부작용은 무엇인가? 불안함과 즐거움 사이의 모호한 존재가 바로 블랙 미러다. 검은 거울은 모든 벽과 책상에 있고 모든 사람의 손바닥에 있다: 차갑고 번쩍거리는 텔레비전 화면, 모니터, 스마트폰이 바로 검은 거울이다. 가까운 미래의 첨단 기술이 인간의 욕망을 실현해 주면서 벌어지는 특별한 상황들을 어두운 상상력으로 풀어낸다.",
+    "genre": ["디스토피아","SF","스릴러","드라마","풍자","판타지"],
     "director": [
-      "Greg Berlanti",
-      "Sera Gamble"
+      "Charlie Brooker"
     ],
     "cast": [
       "Penn Badgley",
