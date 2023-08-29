@@ -2,52 +2,309 @@
   {
     "id": 1,
     "title": "너의 모든 것 (You)",
-    "poster_path": "https://i.ytimg.com/vi/twE27qGVCSM/maxresdefault.jpg"
+    "poster_path": "https://i.ytimg.com/vi/twE27qGVCSM/maxresdefault.jpg",
+    "release_date": "2018-09-09",
+    "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
+    "genre": ["드라마","스릴러"],
+    "director": [
+      "Greg Berlanti",
+      "Sera Gamble"
+    ],
+    "cast": [
+      "Penn Badgley",
+      "Victoria Pedretti",
+      "Ambyr Childers",
+      "Elizabeth Lail"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 2,
     "title": "브루클린 나인나인(Brooklyn Nine-Nine)",
-    "poster_path": "https://cdn.maily.so/202208/munhwa.cvs/1660492390450171.jpeg"
+    "poster_path": "https://cdn.maily.so/202208/munhwa.cvs/1660492390450171.jpeg",
+    "release_date": "2013-09-17",
+    "overview": "경찰의 명예를 중시하는 원칙주의자 홀트 서장. 그 아래 재능은 물론 꼼수, 공갈, 운까지 총동원해서 어떻게든 사건을 해결해내는 듬직한(?) 형사들이 있는 곳. 브루클린 99 관할 경찰서에 오신 것을 환영합니다!",
+    "genre": ["코미디","범죄"],
+    "director": [
+      "GMichael Schur",
+      "Daniel J. Goor"
+    ],
+    "cast": [
+      "Andy Samberg",
+      "Melissa Fumero",
+      "Terry Crews",
+      "Joe Lo Truglio",
+      "Stephanie Beatriz",
+      "Andre Braugher"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
   },
   {
     "id": 3,
     "title": "블랙 미러 (Black Mirror)",
-    "poster_path": "https://rereco.co/wp-content/uploads/2022/05/%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4-%EB%B8%94%EB%9E%99%EB%AF%B8%EB%9F%AC.jpg"
+    "poster_path": "https://rereco.co/wp-content/uploads/2022/05/%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4-%EB%B8%94%EB%9E%99%EB%AF%B8%EB%9F%AC.jpg",
+    "release_date": "2011-12-04",
+    "overview": "2011년 12월 Channel 4에서 방영을 시작한 SF 옴니버스 드라마. 만약 기술이 마약이나 마찬가지이고 사용되기도 마약 같이 사용되고 있다면 그에 따른 부작용은 무엇인가? 불안함과 즐거움 사이의 모호한 존재가 바로 블랙 미러다. 검은 거울은 모든 벽과 책상에 있고 모든 사람의 손바닥에 있다: 차갑고 번쩍거리는 텔레비전 화면, 모니터, 스마트폰이 바로 검은 거울이다. 가까운 미래의 첨단 기술이 인간의 욕망을 실현해 주면서 벌어지는 특별한 상황들을 어두운 상상력으로 풀어낸다.",
+    "genre": ["디스토피아","SF","스릴러","드라마","풍자","판타지"],
+    "director": [
+      "Charlie Brooker"
+    ],
+    "cast": [
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 4,
     "title": "굿 걸스(Good Girls)",
-    "poster_path": "https://mblogthumb-phinf.pstatic.net/MjAxOTA3MjNfMjU1/MDAxNTYzODU0NTMxNTk5.6HaaWLk4cun2CYmU58CUdqNCc8qa3PGuFj5sb2PtIL0g.7aUxA059XdNDk3Al7GNw_-Ivp29GwDCQY15UMBxmmXMg.JPEG.getterliger/SE-0e65a923-f1c9-491a-bd9f-e1a7ead17db8.jpg?type=w800"
+    "poster_path": "https://mblogthumb-phinf.pstatic.net/MjAxOTA3MjNfMjU1/MDAxNTYzODU0NTMxNTk5.6HaaWLk4cun2CYmU58CUdqNCc8qa3PGuFj5sb2PtIL0g.7aUxA059XdNDk3Al7GNw_-Ivp29GwDCQY15UMBxmmXMg.JPEG.getterliger/SE-0e65a923-f1c9-491a-bd9f-e1a7ead17db8.jpg?type=w800",
+    "release_date": "2018-02-26",
+    "overview": "빠듯한 살림과 빚잔치에 울화가 치민 세 여인. 언제까지 이렇게 살아? 동네 마트나 한 번 털고 허리 좀 펴자! 생각으로 그쳤으면 좋았을 것을 과감하게 실행에 옮긴다.",
+    "genre": ["범죄","코미디","드라마"],
+    "director": [
+      "Jenna Bans"
+    ],
+    "cast": [
+      "Christina Hendricks",
+      "Retta",
+      "Mae Whitman",
+      "Manny Montana"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 5,
     "title": "Dead to me(데드 투 미)",
-    "poster_path":"https://blog.kakaocdn.net/dn/zlfVv/btqXgpCVwlB/P7C5vZCCzRbSd4cgp0bDH0/img.png"
+    "poster_path":"https://blog.kakaocdn.net/dn/zlfVv/btqXgpCVwlB/P7C5vZCCzRbSd4cgp0bDH0/img.png",
+    "release_date": "2019-05-03",
+    "overview": "예민하고 깐깐한 미망인과 놀라운 비밀을 간직한 채 살아가는 자유분방한 여성. 정반대의 두 사람이 만나 생각지도 못한 강렬한 우정을 꽃피운다. 어두운 코미디 시리즈.",
+    "genre": ["드라마","코미디","범죄"],
+    "director": [
+      "Liz Feldman"
+    ],
+    "cast": [
+      "Christina Applegate",
+      "Linda Cardellini"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 6,
     "title": "손 the geuest",
-    "poster_path":"https://image.tving.com/ntgs/contents/CTC/caip/CAIP0400/ko/20180907/P000656240.jpg/dims/resize/500"
+    "poster_path":"https://image.tving.com/ntgs/contents/CTC/caip/CAIP0400/ko/20180907/P000656240.jpg/dims/resize/500",
+    "release_date": "2018-12-09",
+    "overview": "2018년 9월 OCN에서 방영을 시작한 미스터리 드라마. 동해의 작은 마을에 전해 오는 전설이 있다. 동쪽 바다 깊은 곳에서 와서 사람에게 들어온다는 큰 귀신, 손. 20년 전 작은 마을에서 잔인한 살인 사건이 발생한다. 그리고 20년 후 발생하는 일련의 기괴한 살인 사건들. 말로 설명되지 않는 기이한 힘에 의해 벌어진 범죄. 인간의 일그러진 마음에 깃든 손, 그 손에 씌인 사람들이 저지르는 잔인한 살인사건들. 영매, 사제, 그리고 형사가 각기 다른 이유로 손을 찾기 시작한다. 이들이 쫓는 손의 정체는 무엇일까?",
+    "genre": ["오컬트","공포","미스터리","드라마","범죄"],
+    "director": [
+      "김홍선"
+    ],
+    "cast": [
+      "김동욱",
+      "김재욱",
+      "정은채",
+      "안내상",
+      "이원종"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 7,
     "title": "Sex Education(오티스의 비밀 상담소)",
-    "poster_path":"https://blog.kakaocdn.net/dn/0tQqn/btrfElXfgzR/sS0U6YKEofn7SqjiuXGTb1/img.jpg"
+    "poster_path":"https://blog.kakaocdn.net/dn/0tQqn/btrfElXfgzR/sS0U6YKEofn7SqjiuXGTb1/img.jpg",
+    "release_date": "2019-11-01",
+    "overview": "소심한 소년 오티스의 대반전, 그가 아웃사이더 소녀와 함께 섹스 상담소를 연다. 성 상담사 엄마에게 귀동냥한 산지식을 모두 전수해드려요. 오티스는 절찬 상담 중!",
+    "genre": ["코미디","드라마"],
+    "director": [
+      "Laurie Nunn"
+    ],
+    "cast": [
+      "Asa Butterfield",
+      "Gillian Anderson",
+      "Ncuti Gatwa",
+      "Emma Mackey"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 8,
     "title": "orange is the new black",
-    "poster_path":"https://i.guim.co.uk/img/media/fd7dd5cbb4086dfe1ead904129237890b574bb79/0_0_1068_641/master/1068.jpg?width=465&dpr=1&s=none"
+    "poster_path":"https://i.guim.co.uk/img/media/fd7dd5cbb4086dfe1ead904129237890b574bb79/0_0_1068_641/master/1068.jpg?width=465&dpr=1&s=none",
+    "release_date": "2013-07-11",
+    "overview": "2013년 7월 Netflix에서 방영을 시작한 감옥 드라마. 파이퍼 커먼이 자신의 여성 교도소에서의 경험을 쓴 회고록 Orange Is the New Black: My Year in a Women's Prison을 원작으로 한다. 뉴욕에 살던 파이퍼 채프먼(테일러 실링)은 유대인 약혼자를 둔 평범한 뉴욕 시민이었다. 그러나 어느 날 과거 자신의 애인 알렉스(로라 프리폰) 때문에 마약을 운반했던 전력이 누군가의 밀고로 인해 드러나면서 15개월 간의 징역살이를 하게 된다. 그리고 파이퍼는 그 감옥 안에서 과거 자신의 연인이자 감옥으로 오게 된 원인인 알렉스와 재회하게 되는데...",
+    "genre": ["코미디","드라마"],
+    "director": [
+      "Jenji Kohan"
+    ],
+    "cast": [
+      "Taylor Schilling",
+      "Laura Prepon",
+      "Natasha Lyonne",
+      "Dascha Polanco"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 9,
     "title": "비밀의 숲",
-    "poster_path":"https://upload.wikimedia.org/wikipedia/ko/4/4c/%EB%93%9C%EB%9D%BC%EB%A7%88_%EB%B9%84%EB%B0%80%EC%9D%98_%EC%88%B2_%EB%8C%80%ED%91%9C_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+    "poster_path":"https://upload.wikimedia.org/wikipedia/ko/4/4c/%EB%93%9C%EB%9D%BC%EB%A7%88_%EB%B9%84%EB%B0%80%EC%9D%98_%EC%88%B2_%EB%8C%80%ED%91%9C_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg",
+    "release_date": "2017-06-10",
+    "overview": "감정을 느끼지 못하는 외톨이 검사 황시목이, 정의롭고 따뜻한 형사 한여진과 함께 검찰 스폰서 살인사건과 그 이면에 숨겨진 진실을 파헤치는 내부 비밀 추적극. 처음엔 검찰 조직 내부의 비리에서 촉발된 것으로 보였던 사건은 범인의 의도도, 향방도 알 수 없는 미궁에 빠지는데...",
+    "genre": ["범죄","드라마","미스터리"],
+    "director": [
+      "이수연"
+    ],
+    "cast": [
+      {
+        "황시목" : "조승우",
+        "한여진": "배두나"
+      }
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 10,
     "title": "산타클라리타 다이어트(Santa Clarita Diet)",
-    "poster_path":"https://image.aladin.co.kr/Community/paper/2019/0403/pimg_7036011362164083.jpg"
+    "poster_path":"https://image.aladin.co.kr/Community/paper/2019/0403/pimg_7036011362164083.jpg",
+    "release_date": "2017-02-03",
+    "overview": "로스앤젤레스 근교인 산타클라리타에서 십 대의 딸 애비와 함께 살아가는 부동산 중개업자 부부 조엘과 쉴라의 이야기를 그린다. 어딘가 만족스럽지 못한 삶을 살아가던 부부의 삶은 아내 쉴라가 급작스러운 변화를 겪으면서 죽음과 파멸의 길로 접어들지만, 뜻밖에도 좋은 결과를 맞이하게 되는데...",
+    "genre": ["코미디","미스터리"],
+    "director": [
+      "Victor Fresco"
+    ],
+    "cast": [
+      "Drew Barrymore",
+      "Timothy Olyphant",
+      "Liv Hewson",
+      "Skyler Gisondo"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
   }
   
 ]
