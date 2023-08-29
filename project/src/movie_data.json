@@ -2,7 +2,34 @@
   {
     "id": 1,
     "title": "너의 모든 것 (You)",
-    "poster_path": "https://i.ytimg.com/vi/twE27qGVCSM/maxresdefault.jpg"
+    "poster_path": "https://i.ytimg.com/vi/twE27qGVCSM/maxresdefault.jpg",
+    "release_date": "2018-09-09",
+    "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
+    "genre": ["Drama"],
+    "director": [
+      "Greg Berlanti",
+      "Sera Gamble"
+    ],
+    "cast": [
+      "Penn Badgley",
+      "Victoria Pedretti",
+      "Ambyr Childers",
+      "Elizabeth Lail"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 2,
