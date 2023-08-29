@@ -34,47 +34,290 @@
   {
     "id": 2,
     "title": "브루클린 나인나인(Brooklyn Nine-Nine)",
-    "poster_path": "https://cdn.maily.so/202208/munhwa.cvs/1660492390450171.jpeg"
+    "poster_path": "https://cdn.maily.so/202208/munhwa.cvs/1660492390450171.jpeg",
+    "release_date": "2013-09-17",
+    "overview": "경찰의 명예를 중시하는 원칙주의자 홀트 서장. 그 아래 재능은 물론 꼼수, 공갈, 운까지 총동원해서 어떻게든 사건을 해결해내는 듬직한(?) 형사들이 있는 곳. 브루클린 99 관할 경찰서에 오신 것을 환영합니다!",
+    "genre": ["Comedy","crime"],
+    "director": [
+      "GMichael Schur",
+      "Daniel J. Goor"
+    ],
+    "cast": [
+      "Andy Samberg",
+      "Melissa Fumero",
+      "Terry Crews",
+      "Joe Lo Truglio",
+      "Stephanie Beatriz",
+      "Andre Braugher"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
   },
   {
     "id": 3,
     "title": "블랙 미러 (Black Mirror)",
-    "poster_path": "https://rereco.co/wp-content/uploads/2022/05/%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4-%EB%B8%94%EB%9E%99%EB%AF%B8%EB%9F%AC.jpg"
+    "poster_path": "https://rereco.co/wp-content/uploads/2022/05/%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4-%EB%B8%94%EB%9E%99%EB%AF%B8%EB%9F%AC.jpg",
+    "release_date": "2018-09-09",
+    "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
+    "genre": ["Drama"],
+    "director": [
+      "Greg Berlanti",
+      "Sera Gamble"
+    ],
+    "cast": [
+      "Penn Badgley",
+      "Victoria Pedretti",
+      "Ambyr Childers",
+      "Elizabeth Lail"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 4,
     "title": "굿 걸스(Good Girls)",
-    "poster_path": "https://mblogthumb-phinf.pstatic.net/MjAxOTA3MjNfMjU1/MDAxNTYzODU0NTMxNTk5.6HaaWLk4cun2CYmU58CUdqNCc8qa3PGuFj5sb2PtIL0g.7aUxA059XdNDk3Al7GNw_-Ivp29GwDCQY15UMBxmmXMg.JPEG.getterliger/SE-0e65a923-f1c9-491a-bd9f-e1a7ead17db8.jpg?type=w800"
+    "poster_path": "https://mblogthumb-phinf.pstatic.net/MjAxOTA3MjNfMjU1/MDAxNTYzODU0NTMxNTk5.6HaaWLk4cun2CYmU58CUdqNCc8qa3PGuFj5sb2PtIL0g.7aUxA059XdNDk3Al7GNw_-Ivp29GwDCQY15UMBxmmXMg.JPEG.getterliger/SE-0e65a923-f1c9-491a-bd9f-e1a7ead17db8.jpg?type=w800",
+    "release_date": "2018-09-09",
+    "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
+    "genre": ["Drama"],
+    "director": [
+      "Greg Berlanti",
+      "Sera Gamble"
+    ],
+    "cast": [
+      "Penn Badgley",
+      "Victoria Pedretti",
+      "Ambyr Childers",
+      "Elizabeth Lail"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 5,
     "title": "Dead to me(데드 투 미)",
-    "poster_path":"https://blog.kakaocdn.net/dn/zlfVv/btqXgpCVwlB/P7C5vZCCzRbSd4cgp0bDH0/img.png"
+    "poster_path":"https://blog.kakaocdn.net/dn/zlfVv/btqXgpCVwlB/P7C5vZCCzRbSd4cgp0bDH0/img.png",
+    "release_date": "2018-09-09",
+    "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
+    "genre": ["Drama"],
+    "director": [
+      "Greg Berlanti",
+      "Sera Gamble"
+    ],
+    "cast": [
+      "Penn Badgley",
+      "Victoria Pedretti",
+      "Ambyr Childers",
+      "Elizabeth Lail"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 6,
     "title": "손 the geuest",
-    "poster_path":"https://image.tving.com/ntgs/contents/CTC/caip/CAIP0400/ko/20180907/P000656240.jpg/dims/resize/500"
+    "poster_path":"https://image.tving.com/ntgs/contents/CTC/caip/CAIP0400/ko/20180907/P000656240.jpg/dims/resize/500",
+    "release_date": "2018-09-09",
+    "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
+    "genre": ["Drama"],
+    "director": [
+      "Greg Berlanti",
+      "Sera Gamble"
+    ],
+    "cast": [
+      "Penn Badgley",
+      "Victoria Pedretti",
+      "Ambyr Childers",
+      "Elizabeth Lail"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 7,
     "title": "Sex Education(오티스의 비밀 상담소)",
-    "poster_path":"https://blog.kakaocdn.net/dn/0tQqn/btrfElXfgzR/sS0U6YKEofn7SqjiuXGTb1/img.jpg"
+    "poster_path":"https://blog.kakaocdn.net/dn/0tQqn/btrfElXfgzR/sS0U6YKEofn7SqjiuXGTb1/img.jpg",
+    "release_date": "2018-09-09",
+    "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
+    "genre": ["Drama"],
+    "director": [
+      "Greg Berlanti",
+      "Sera Gamble"
+    ],
+    "cast": [
+      "Penn Badgley",
+      "Victoria Pedretti",
+      "Ambyr Childers",
+      "Elizabeth Lail"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 8,
     "title": "orange is the new black",
-    "poster_path":"https://i.guim.co.uk/img/media/fd7dd5cbb4086dfe1ead904129237890b574bb79/0_0_1068_641/master/1068.jpg?width=465&dpr=1&s=none"
+    "poster_path":"https://i.guim.co.uk/img/media/fd7dd5cbb4086dfe1ead904129237890b574bb79/0_0_1068_641/master/1068.jpg?width=465&dpr=1&s=none",
+    "release_date": "2018-09-09",
+    "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
+    "genre": ["Drama"],
+    "director": [
+      "Greg Berlanti",
+      "Sera Gamble"
+    ],
+    "cast": [
+      "Penn Badgley",
+      "Victoria Pedretti",
+      "Ambyr Childers",
+      "Elizabeth Lail"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 9,
     "title": "비밀의 숲",
-    "poster_path":"https://upload.wikimedia.org/wikipedia/ko/4/4c/%EB%93%9C%EB%9D%BC%EB%A7%88_%EB%B9%84%EB%B0%80%EC%9D%98_%EC%88%B2_%EB%8C%80%ED%91%9C_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+    "poster_path":"https://upload.wikimedia.org/wikipedia/ko/4/4c/%EB%93%9C%EB%9D%BC%EB%A7%88_%EB%B9%84%EB%B0%80%EC%9D%98_%EC%88%B2_%EB%8C%80%ED%91%9C_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg",
+    "release_date": "2018-09-09",
+    "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
+    "genre": ["Drama"],
+    "director": [
+      "Greg Berlanti",
+      "Sera Gamble"
+    ],
+    "cast": [
+      "Penn Badgley",
+      "Victoria Pedretti",
+      "Ambyr Childers",
+      "Elizabeth Lail"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
+
   },
   {
     "id": 10,
     "title": "산타클라리타 다이어트(Santa Clarita Diet)",
-    "poster_path":"https://image.aladin.co.kr/Community/paper/2019/0403/pimg_7036011362164083.jpg"
+    "poster_path":"https://image.aladin.co.kr/Community/paper/2019/0403/pimg_7036011362164083.jpg",
+    "release_date": "2018-09-09",
+    "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
+    "genre": ["Drama"],
+    "director": [
+      "Greg Berlanti",
+      "Sera Gamble"
+    ],
+    "cast": [
+      "Penn Badgley",
+      "Victoria Pedretti",
+      "Ambyr Childers",
+      "Elizabeth Lail"
+    ],
+    "episode_reviews": [
+      {
+        "episode_number": 1,
+        "reviews": "review"
+      },
+      {
+        "episode_number": 2,
+        "reviews": "review",
+        "overall_reviews": [
+          "review"
+        ]
+      } 
+    ]
   }
   
 ]
