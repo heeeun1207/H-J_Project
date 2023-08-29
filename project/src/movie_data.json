@@ -188,17 +188,16 @@
     "title": "Sex Education(오티스의 비밀 상담소)",
     "poster_path":"https://blog.kakaocdn.net/dn/0tQqn/btrfElXfgzR/sS0U6YKEofn7SqjiuXGTb1/img.jpg",
     "release_date": "2019-11-01",
-    "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
-    "genre": ["Drama"],
+    "overview": "소심한 소년 오티스의 대반전, 그가 아웃사이더 소녀와 함께 섹스 상담소를 연다. 성 상담사 엄마에게 귀동냥한 산지식을 모두 전수해드려요. 오티스는 절찬 상담 중!",
+    "genre": ["코미디","드라마"],
     "director": [
-      "Greg Berlanti",
-      "Sera Gamble"
+      "Laurie Nunn"
     ],
     "cast": [
-      "Penn Badgley",
-      "Victoria Pedretti",
-      "Ambyr Childers",
-      "Elizabeth Lail"
+      "Asa Butterfield",
+      "Gillian Anderson",
+      "Ncuti Gatwa",
+      "Emma Mackey"
     ],
     "episode_reviews": [
       {
@@ -219,18 +218,17 @@
     "id": 8,
     "title": "orange is the new black",
     "poster_path":"https://i.guim.co.uk/img/media/fd7dd5cbb4086dfe1ead904129237890b574bb79/0_0_1068_641/master/1068.jpg?width=465&dpr=1&s=none",
-    "release_date": "2018-09-09",
-    "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
-    "genre": ["Drama"],
+    "release_date": "2013-07-11",
+    "overview": "2013년 7월 Netflix에서 방영을 시작한 감옥 드라마. 파이퍼 커먼이 자신의 여성 교도소에서의 경험을 쓴 회고록 Orange Is the New Black: My Year in a Women's Prison을 원작으로 한다. 뉴욕에 살던 파이퍼 채프먼(테일러 실링)은 유대인 약혼자를 둔 평범한 뉴욕 시민이었다. 그러나 어느 날 과거 자신의 애인 알렉스(로라 프리폰) 때문에 마약을 운반했던 전력이 누군가의 밀고로 인해 드러나면서 15개월 간의 징역살이를 하게 된다. 그리고 파이퍼는 그 감옥 안에서 과거 자신의 연인이자 감옥으로 오게 된 원인인 알렉스와 재회하게 되는데...",
+    "genre": ["코미디","드라마"],
     "director": [
-      "Greg Berlanti",
-      "Sera Gamble"
+      "Jenji Kohan"
     ],
     "cast": [
-      "Penn Badgley",
-      "Victoria Pedretti",
-      "Ambyr Childers",
-      "Elizabeth Lail"
+      "Taylor Schilling",
+      "Laura Prepon",
+      "Natasha Lyonne",
+      "Dascha Polanco"
     ],
     "episode_reviews": [
       {
@@ -251,18 +249,17 @@
     "id": 9,
     "title": "비밀의 숲",
     "poster_path":"https://upload.wikimedia.org/wikipedia/ko/4/4c/%EB%93%9C%EB%9D%BC%EB%A7%88_%EB%B9%84%EB%B0%80%EC%9D%98_%EC%88%B2_%EB%8C%80%ED%91%9C_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg",
-    "release_date": "2018-09-09",
-    "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
-    "genre": ["Drama"],
+    "release_date": "2017-06-10",
+    "overview": "감정을 느끼지 못하는 외톨이 검사 황시목이, 정의롭고 따뜻한 형사 한여진과 함께 검찰 스폰서 살인사건과 그 이면에 숨겨진 진실을 파헤치는 내부 비밀 추적극. 처음엔 검찰 조직 내부의 비리에서 촉발된 것으로 보였던 사건은 범인의 의도도, 향방도 알 수 없는 미궁에 빠지는데...",
+    "genre": ["범죄","드라마","미스터리"],
     "director": [
-      "Greg Berlanti",
-      "Sera Gamble"
+      "이수연"
     ],
     "cast": [
-      "Penn Badgley",
-      "Victoria Pedretti",
-      "Ambyr Childers",
-      "Elizabeth Lail"
+      {
+        "황시목" : "조승우",
+        "한여진": "배두나"
+      }
     ],
     "episode_reviews": [
       {
@@ -283,18 +280,17 @@
     "id": 10,
     "title": "산타클라리타 다이어트(Santa Clarita Diet)",
     "poster_path":"https://image.aladin.co.kr/Community/paper/2019/0403/pimg_7036011362164083.jpg",
-    "release_date": "2018-09-09",
-    "overview": "지적이고 영리한 서점 직원. 하지만 위험한 내면을 지닌 그가 작가 지망생에게 반한다. 마음이 끌리는 사람에게 다가가기 위해서라면, 무슨 짓이든 할 수 있다. 위험한 매력의 소유자, 집착의 끝을 보여주는 남자. 그의 소름 끼치는 로맨스가 시작된다.",
-    "genre": ["Drama"],
+    "release_date": "2017-02-03",
+    "overview": "로스앤젤레스 근교인 산타클라리타에서 십 대의 딸 애비와 함께 살아가는 부동산 중개업자 부부 조엘과 쉴라의 이야기를 그린다. 어딘가 만족스럽지 못한 삶을 살아가던 부부의 삶은 아내 쉴라가 급작스러운 변화를 겪으면서 죽음과 파멸의 길로 접어들지만, 뜻밖에도 좋은 결과를 맞이하게 되는데...",
+    "genre": ["코미디","미스터리"],
     "director": [
-      "Greg Berlanti",
-      "Sera Gamble"
+      "Victor Fresco"
     ],
     "cast": [
-      "Penn Badgley",
-      "Victoria Pedretti",
-      "Ambyr Childers",
-      "Elizabeth Lail"
+      "Drew Barrymore",
+      "Timothy Olyphant",
+      "Liv Hewson",
+      "Skyler Gisondo"
     ],
     "episode_reviews": [
       {
