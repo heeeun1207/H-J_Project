@@ -46,6 +46,7 @@ const CarouselSlider = () => {
         <CustomModal
           isOpen={modalIsOpen}
           closeModal={closeModal}
+          posterUrl={selectedMovie.posterUrl}
           title={selectedMovie.title}
           content={selectedMovie.overview}
         />
