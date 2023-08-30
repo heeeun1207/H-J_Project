@@ -1,0 +1,42 @@
+/* CustomModal.css */
+.custom-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #141414;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  max-width: 80%;
+  color: white;
+  z-index: 1;
+}
+
+.custom-modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-button {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.close-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.modalImg {
+  width: 100%;
+  height: 100%;
+}
