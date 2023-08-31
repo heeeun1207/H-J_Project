@@ -20,8 +20,10 @@ app.get('/', (req,res) => {
 
 const apiKey = '4f7a2baa745822c7e805100300f62cc6';
 const searchTerm = "너의 모든 것";
+const BASE_LANG = 'ko';
+const BASE_REGION = 'KR';
 
-  const searchUrl = `https://api.themoviedb.org/3/search/tv?api_key=${apiKey}&query=${encodeURIComponent(searchTerm)}`;
+  const searchUrl = `https://api.themoviedb.org/3/search/tv?api_key=${apiKey}&query=${encodeURIComponent(searchTerm)}&language=${BASE_LANG}&region=${BASE_REGION}`;
   
   return fetch(searchUrl)
     .then(response => response.json())
