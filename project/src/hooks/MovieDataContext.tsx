@@ -53,7 +53,8 @@ export const MovieDataProvider = ({ children }) => {
     const formattedMovies = movieData.map(movie => ({
       id: movie.id,
       title: movie.title,
-      posterUrl: `${movie.poster_path}`
+      posterUrl: movie.poster_path,
+      overview: movie.overview
     }));
 
     setMovies(formattedMovies);
