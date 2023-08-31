@@ -23,18 +23,21 @@ const searchTerm = "너의 모든 것";
 const BASE_LANG = 'ko';
 const BASE_REGION = 'KR';
 
-  const searchUrl = `https://api.themoviedb.org/3/search/tv?api_key=${apiKey}&query=${encodeURIComponent(searchTerm)}&language=${BASE_LANG}&region=${BASE_REGION}`;
+const searchUrl = `https://api.themoviedb.org/3/tv/78191?api_key=4f7a2baa745822c7e805100300f62cc6&language=${BASE_LANG}&region=${BASE_REGION}`;
+  // const searchUrl = `https://api.themoviedb.org/3/search/tv?api_key=${apiKey}&query=${encodeURIComponent(searchTerm)}&language=${BASE_LANG}&region=${BASE_REGION}`;
   
   return fetch(searchUrl)
     .then(response => response.json())
     .then(data => {
-      if (data.results && data.results.length > 0) {
-        const movie = data.results[0];
-        console.log(movie);
-        return movie;
-      } else {
-        return null;
-      }
+      // if (data.results && data.results.length > 0) {
+      //   const movie = data.results[0];
+      //   console.log(movie);
+      //   return movie;
+      // } else {
+      //   return null;
+      // }
+      const movie = data;
+      console.log(movie);
     })
     .catch(error => {
       console.error('Error fetching data:', error);

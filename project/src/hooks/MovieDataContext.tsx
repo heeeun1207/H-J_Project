@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import movieData from '../movie_data.json';
+import movieData from '../Series_data.json';
 
 
 const MovieDataContext = createContext();
