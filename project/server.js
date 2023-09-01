@@ -24,13 +24,18 @@ const BASE_LANG = 'ko';
 const BASE_REGION = 'KR';
 // 배열을 문자열로 변환 (쉼표로 구분)
 // const searchTermString = searchTerms.join(',');
-
-const searchUrl = `https://api.themoviedb.org/3/search/tv?api_key=${apiKey}&language=${BASE_LANG}&region=${BASE_REGION}&query=${encodeURIComponent(searchTerms)}`;
+const searchUrls = searchTerms.map(term => {
+  const searchTermString = encodeURIComponent(term);
+  return `https://api.themoviedb.org/3/search/tv?api_key=${apiKey}&language=${BASE_LANG}&region=${BASE_REGION}&query=${searchTermString}`;
+ 
+});
+console.log(searchUrls);
+// const searchUrl = `https://api.themoviedb.org/3/search/tv?api_key=${apiKey}&language=${BASE_LANG}&region=${BASE_REGION}&query=${encodeURIComponent(searchTerms)}`;
 
   // const searchUrl = `https://api.themoviedb.org/3/search/tv?api_key=${apiKey}&query=${encodeURIComponent(searchTerm)}&language=${BASE_LANG}&region=${BASE_REGION}`;
 const resultUrl = `https://api.themoviedb.org/3/tv/78191?api_key=${apiKey}&language=${BASE_LANG}&region=${BASE_REGION}`;
   
-  return fetch(searchUrl)
+  return fetch(searchUrls)
     .then(response => response.json())
     .then(data => {
       // if (data.results && data.results.length > 0) {
