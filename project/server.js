@@ -17,14 +17,18 @@ app.get('/', (req,res) => {
   });
 });
 
-
+//todo id를 얻어서 그 결과로 검색하기
 const apiKey = '4f7a2baa745822c7e805100300f62cc6';
-const searchTerm = "너의 모든 것";
+const searchTerms = ["너의 모든 것","굿걸스","성난 사람들"];
 const BASE_LANG = 'ko';
 const BASE_REGION = 'KR';
+// 배열을 문자열로 변환 (쉼표로 구분)
+// const searchTermString = searchTerms.join(',');
 
-const searchUrl = `https://api.themoviedb.org/3/tv/78191?api_key=4f7a2baa745822c7e805100300f62cc6&language=${BASE_LANG}&region=${BASE_REGION}`;
+const searchUrl = `https://api.themoviedb.org/3/search/tv?api_key=${apiKey}&language=${BASE_LANG}&region=${BASE_REGION}&query=${encodeURIComponent(searchTerms)}`;
+
   // const searchUrl = `https://api.themoviedb.org/3/search/tv?api_key=${apiKey}&query=${encodeURIComponent(searchTerm)}&language=${BASE_LANG}&region=${BASE_REGION}`;
+const resultUrl = `https://api.themoviedb.org/3/tv/78191?api_key=${apiKey}&language=${BASE_LANG}&region=${BASE_REGION}`;
   
   return fetch(searchUrl)
     .then(response => response.json())
