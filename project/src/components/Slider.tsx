@@ -3,14 +3,14 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './CarouselSlider.css'; 
-import { useSeriesData } from '../hooks/SeriesDataContext.tsx';
+import { useMovieData } from '../hooks/MovieData.tsx'
 import CustomModal from './CustomModal.tsx';
 
-const CarouselSlider = () => {
-  const { Series } = useSeriesData(); // 영화 데이터 가져오기
+const MoviesSlider = () => {
+  const { Movie } = useMovieData(); 
 
-  // 처음 10개의 영화 정보만 추출
-  const first10Movies = Series.slice(0, 10);
+
+  const first11Movies = Movie.slice(0, 11);
 
   const[modalIsOpen, setModalIsOpen] = useState(false);
   const[selectedMovie, setSelectedMovie] = useState(null);
@@ -36,7 +36,7 @@ const CarouselSlider = () => {
   return (
     <div className="carousel-slider">
       <Slider {...settings}>
-        {first10Movies.map(movie => (
+        {first11Movies.map(movie => (
           <div className="carousel-slide" key={movie.id} onClick={ ()=> openModal(movie)}>
             <img src={movie.posterUrl} alt={movie.title} />
           </div>
@@ -55,4 +55,4 @@ const CarouselSlider = () => {
   );
 };
 
-export default CarouselSlider;
+export default MoviesSlider;
