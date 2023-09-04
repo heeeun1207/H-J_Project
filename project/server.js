@@ -18,16 +18,16 @@ app.get('/', (req,res) => {
   });
 });
 
-//todo id를 얻어서 그 결과로 검색하기..바보짓을 하는 것같은데....!!!!!!!!!!!이렇게 url을 하나하나 만들어서 요청을 받아야하는건가...?!
+
 const apiKey = '4f7a2baa745822c7e805100300f62cc6';
-const searchTerms = ["너의 모든 것","굿 걸스","성난 사람들"];
+const searchTerms = ["올드 가드","헤어질 결심","거꾸로 가는 남자","나를 찾아줘","길복순","미드소마","키싱부스","내가 사랑했던 모든 남자들에게","나를 차버린 스파이","캐롤","블루 재스민"];
 const BASE_LANG = 'ko';
 const BASE_REGION = 'KR';
 // 배열을 문자열로 변환 (쉼표로 구분)
 // const searchTermString = searchTerms.join(',');
 const searchRequests  = searchTerms.map(term => {
   const searchTermString = encodeURIComponent(term);
-  const url = `https://api.themoviedb.org/3/search/tv?api_key=${apiKey}&language=${BASE_LANG}&region=${BASE_REGION}&query=${searchTermString}`;
+  const url = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&language=${BASE_LANG}&region=${BASE_REGION}&query=${searchTermString}`;
 
 // console.log(searchUrls);
 // const searchUrl = `https://api.themoviedb.org/3/search/tv?api_key=${apiKey}&language=${BASE_LANG}&region=${BASE_REGION}&query=${encodeURIComponent(searchTerms)}`;
