@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar.tsx';
-import CarouselSlider from '../components/CarouselSlider.tsx';
+import CarouselSlider from '../components/Slider.tsx';
 
 const Movies = () => {
 
