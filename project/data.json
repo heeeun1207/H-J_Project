@@ -46,16 +46,16 @@
   { "id":11, "name": "블루 재스민"}
   ],
   "Watchlist": [
-    { "id":1, "name": "어둠속으로"},
+    { "id":1, "name": "어둠 속으로"},
     { "id":2, "name": "원헌드레드"},
-    { "id":3, "name": "리빙위드유어셀프"},
-    { "id":4, "name": "더 폴리티션"},
-    { "id":5, "name": "돈룩업"},
+    { "id":3, "name": "Living with Yourself"},
+    { "id":4, "name": "The Politician"},
+    { "id":5, "name": "Don't Look Up"},
     { "id":6, "name": "퀸메이커"},
-    { "id":7, "name": "후 이즈 에린?"},
-    { "id":8, "name": "사이렌"},
+    { "id":7, "name": "Who Is Erin Carter?"},
+    { "id":8, "name": "사이렌: 불의 섬"},
     { "id":9, "name": "다음 소희"},
-    { "id":10, "name": "매니패스트"},
-    { "id":11, "name": "애나만들기"}
+    { "id":10, "name": "매니 패스트"},
+    { "id":11, "name": "애나 만들기"}
   ]
 }
