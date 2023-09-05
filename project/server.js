@@ -1,11 +1,33 @@
 const express = require('express');
 const fs = require('fs');
 const { url } = require('inspector');
+const jsonFilePath = 'data.json';
+
 
 const app = express();
 const port = 3002;
 
 app.use(express.json());
+
+//data.json파일읽기
+fs.readFile(jsonFilePath, 'utf8', (err, data) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+
+  try {
+    const jsonData = JSON.parse(data);
+    const Watchlists = jsonData.Watchlist;
+    const WatchlistName = [];
+//watchlistName의 새로운 배열 만들기
+    Watchlists.forEach( name => {WatchlistName.push(name.name)});
+    console.log(WatchlistName); 
+  } catch (error) {
+    console.error('Error parsing JSON:', error);
+  }
+});
+
 
 app.get('/', (req,res) => {
   fs.readFile('data.json', 'utf8',(err,data) => {
@@ -58,7 +80,7 @@ Promise.all(searchRequests)
   .then(results => {
     // console.log(results);
     results.forEach(result => {
-      console.log(result);
+      // console.log(result);
     });
   })
   .catch(error => {
