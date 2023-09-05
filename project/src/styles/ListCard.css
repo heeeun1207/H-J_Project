@@ -1,0 +1,23 @@
+.watchlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.watchlist-card {
+  width: 200px;
+  height: 200px;
+  background-color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  /* padding: 10px; */
+  text-align: center;
+}
+
+.watchlist-card-img {
+  width: 100%;
+  height: 100%;
+  height: auto;
+}
