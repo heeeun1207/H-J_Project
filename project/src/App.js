@@ -9,6 +9,7 @@ import SavedContent from '../src/pages/SavedContent.tsx';
 import CategorizedContent from './pages/CategorizedContent.tsx';
 import { SeriesDataProvider } from './hooks/SeriesDataContext.tsx';
 import { MovieDataProvider } from './hooks/MovieData.tsx';
+import { WatchListProvider } from './hooks/WatchListContext.tsx';
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <BrowserRouter>
     <MovieDataProvider>
     <SeriesDataProvider>
+    <WatchListProvider>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/main" element={<Main />} />
@@ -26,6 +28,7 @@ function App() {
         <Route path="/SavedContent" element={<SavedContent />} />
         <Route path="/CategorizedContent" element={<CategorizedContent />} />
         </Routes>
+    </WatchListProvider>
     </SeriesDataProvider>
     </MovieDataProvider>
     </BrowserRouter>
