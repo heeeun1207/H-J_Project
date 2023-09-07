@@ -30,7 +30,7 @@ const ListCard = () => {
         <CustomModal
           isOpen={modalIsOpen}
           closeModal={closeModal}
-          posterUrl={selectedMovie.posterUrl}
+          posterUrl={`https://image.tmdb.org/t/p/w500${selectedMovie.posterUrl}`}
           title={selectedMovie.title}
           content={selectedMovie.overview}
         />
