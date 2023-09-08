@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/ListCard.css';
 import usePopularData from '../hooks/usePopularData.tsx';
 
 const PopularCard = () => {
@@ -12,19 +13,19 @@ const PopularCard = () => {
   return (
     <div>
       <h2>인기 TV 시리즈</h2>
-      <div className="popular-card-container">
+      <div className="list">
         {tvPopular.map((item) => (
-          <div className="popular-card" key={item.id}>
-            <img src={`https://image.tmdb.org/t/p/w500${item.poster_path}`} alt={item.name} className="popular-card-img" />
+          <div className="list-card" key={item.id}>
+            <img src={`https://image.tmdb.org/t/p/w500${item.poster_path}`} alt={item.name} className="list-card-img" />
           </div>
         ))}
       </div>
 
       <h2>인기 영화</h2>
-      <div className="popular-card-container">
+      <div className="list">
         {moviePopular.map((item) => (
-          <div className="popular-card" key={item.id}>
-            <img src={`https://image.tmdb.org/t/p/w500${item.poster_path}`} alt={item.title} className="popular-card-img" />
+          <div className="list-card" key={item.id}>
+            <img src={`https://image.tmdb.org/t/p/w500${item.poster_path}`} alt={item.title} className="list-card-img" />
           </div>
         ))}
       </div>

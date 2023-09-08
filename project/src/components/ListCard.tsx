@@ -20,10 +20,10 @@ const ListCard = () => {
   };
 
   return (
-    <div className="watchlist">
+    <div className="list">
       {List.map((item) => (
-        <div className="watchlist-card" key={item.id} onClick={() => openModal(item)}> {/* openModal 함수에 item을 전달 */}
-          <img src={`https://image.tmdb.org/t/p/w500${item.posterUrl}`} alt={item.title} className="watchlist-card-img" />
+        <div className="list-card" key={item.id} onClick={() => openModal(item)}> {/* openModal 함수에 item을 전달 */}
+          <img src={`https://image.tmdb.org/t/p/w500${item.posterUrl}`} alt={item.title} className="list-card-img" />
         </div>
       ))}
       {selectedMovie && (
