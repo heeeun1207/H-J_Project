@@ -1,12 +1,13 @@
 import React from 'react';
 import Navbar from '../components/Navbar.tsx';
-import CarouselSlider from '../components/CarouselSlider.tsx';
+import PopularCard from '../components/PopularCard.tsx';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <CarouselSlider></CarouselSlider>
+      <PopularCard></PopularCard>
+      
     </div>
   )
 
